@@ -1,0 +1,59 @@
+/* Full-screen gradient background */
+.register-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a85b6, #bac8e0);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Form card */
+  .form-wrapper {
+    background: linear-gradient(145deg, #7f5af0, #6549b2);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .form-wrapper h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Input fields */
+  .form-wrapper input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button */
+  .form-wrapper button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.5);
+  }
+  
+  .form-wrapper button:hover {
+    background-color: #7020cc;
+  }
+  
+    
